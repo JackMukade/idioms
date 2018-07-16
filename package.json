@@ -1,0 +1,31 @@
+{
+  "name": "idioma",
+  "version": "0.1.0",
+  "description": "idioma",
+  "main": "dist/src/idioma.js",
+  "scripts": {
+    "build": "babel src/idioma.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackMukade/idioms.git"
+  },
+  "keywords": [
+    "idiomas",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Jacob May Gea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackMukade/idioms/issues"
+  },
+  "homepage": "https://github.com/JackMukade/idioms#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
